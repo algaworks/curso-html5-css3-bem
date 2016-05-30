@@ -1,0 +1,166 @@
+/*--------------------*\
+  PLANO
+\*--------------------*/
+.plano {
+  padding: 10px;
+  border: 1px solid #95a4a5;
+
+  font-size: 1.4rem; /* 14px */
+}
+
+.plano__cabecalho {
+  margin: -10px;
+  margin-bottom: 0;
+
+  background-color: #95a4a5;
+  color: #fff;
+
+  text-align: center;
+  line-height: 2.5;
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.plano__preco {
+  margin: 20px 0;
+
+  text-align: center;
+  font-size: 2em;
+}
+
+.plano__caracteristicas {
+  padding: 0;
+  margin: 20px 0;
+
+  font-size: 1em;
+
+  list-style: none;
+}
+
+.plano__caracteristicas > li {
+  text-align: center;
+}
+
+.plano__rodape {
+  text-align: center;
+}
+
+
+/*--------------------*\
+  BOTAO
+\*--------------------*/
+.botao {
+  display: inline-block;
+  padding: 0.8em 1.2em;
+
+  background-color: #bbb;
+  color: #fff;
+
+  font-size: 1em;
+  text-decoration: none;
+}
+
+.botao:hover, .botao:focus {
+  background-color: #aaa;
+  color: #fff;
+
+  text-decoration: none;
+}
+
+.botao--assinar {
+  background-color: #127d00;
+}
+
+.botao--assinar:hover, .botao--assinar:focus {
+  background-color: #0e6400;
+}
+
+.botao--principal {
+  border-radius: 10px;
+
+  background-color: #004b86;
+}
+
+.botao--principal:hover, .botao--principal:focus {
+  background-color: #003b6a;
+}
+
+
+/*--------------------*\
+  CHAMADA
+\*--------------------*/
+.chamada {
+  font-size: 1.6rem; /* 1.6 * 10px = 16px */
+  text-align: center;
+}
+
+.chamada__titulo {
+  margin: 0;
+
+  color: #fff;
+
+  font-size: 3.375em; /* 54px / 16px = 3.375 */
+  line-height: 0.9;
+  text-shadow: 1px 1px #313131;
+}
+
+.chamada__subtitulo {
+  margin: 60px 0;
+
+  color: #fff;
+
+  font-size: 1em;
+}
+
+.chamada__acao {
+  font-size: 1em;
+}
+
+@media(min-width: 992px) {
+  .chamada {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    font-size: 2.2rem; /* 2.2 * 10px = 22px */
+  }
+}
+
+
+/*--------------------*\
+  DEPOIMENTO
+\*--------------------*/
+.depoimento {
+  font-size: 2.2rem; /* 22px */
+}
+
+@media(min-width: 992px) {
+  .depoimento {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    font-size: 2.8rem;
+  }
+}
+
+.depoimento > blockquote {
+  margin: 0;
+  padding: 0 60px;
+
+  text-align: center;
+  font-size: 1em;
+}
+
+.depoimento__autor {
+  margin-top: 40px;
+
+  text-align: center;
+  font-size: 0.7272em;
+}
+
+.depoimento__autor > img {
+  border-radius: 50%;
+}
+
+.depoimento__autor > p {
+  margin-top: 10px;
+}

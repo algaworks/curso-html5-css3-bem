@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+
+/*-----------------------\*
+  CONTEÚDO
+\*-----------------------*/
+.conteudo {
+  background-color: #ccc;
+  padding: 20px;
+}
+
+
+/*-----------------------\*
+  RODAPÉ
+\*-----------------------*/
+.rodape {
+  background-color: yellow;
+  padding: 20px;
+}
+
+
+/*-----------------------\*
+  PORTFOLIO
+\*-----------------------*/
+.portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.portfolio__item {
+  width: 300px;
+  margin-bottom: 20px;
+  float: left;
+  margin-right: 30px;
+}
+
+
+/*-----------------------\*
+  CARTAO-CURSO
+\*-----------------------*/
+.cartao-curso {
+  font-size: 32px;
+  width: 100%;
+  height: 300px;
+  background-color: red;
+  text-align: center;
+}
+
+.cartao-curso > a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.cartao-curso--mais-vendido {
+  background-color: green;
+}
+
+.cartao-curso--novo::after {
+  content: "Novo";
+  display: block;
+  font-size: 24px;
+  margin: 0 20%;
+  margin-top: 30px;
+  background-color: yellow;
+}
+
+
+/*-----------------------\*
+  LISTA-USUARIOS
+\*-----------------------*/
+.usuarios {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.usuarios > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.usuarios > li a {
+  color: green;
+}
+
+.usuarios__nome--novo::after {
+  content: " (Novo)";
+}

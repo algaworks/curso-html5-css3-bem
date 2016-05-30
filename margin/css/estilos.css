@@ -1,0 +1,26 @@
+body {
+  font-size: 32px;
+  margin: 0;
+}
+
+.frase1, .frase2 {
+  text-align: justify;
+  width: 500px;
+  padding: 20px;
+
+  border: 3px solid red;
+  background-color: yellow;
+}
+
+p {
+  margin: 0;
+}
+
+.frase1 {
+  margin: 10px 0 100px 50px;
+  /*margin-top: -100px;*/
+}
+
+.frase2 {
+  margin: 0 auto;
+}

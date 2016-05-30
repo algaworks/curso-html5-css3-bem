@@ -1,0 +1,12 @@
+body {
+  background-color: #ccc;
+}
+
+.container, .container-fluid {
+  background-color: #fff;
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+}

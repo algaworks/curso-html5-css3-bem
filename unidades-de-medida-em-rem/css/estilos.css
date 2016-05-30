@@ -1,0 +1,28 @@
+.texto {
+  font-size: 1rem;
+}
+
+.texto h1 {
+  font-size: 3em;
+}
+
+.texto p {
+  padding: 0.5em;
+  margin-right: 3em;
+  border: 0.5em solid black;
+
+  font-size: 2em;
+}
+
+.texto p span {
+  font-size: 0.5em;
+}
+
+
+.comentarios {
+  font-size: 0.9rem;
+}
+
+.comentarios p {
+  font-size: 1.5em;
+}

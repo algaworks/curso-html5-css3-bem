@@ -1,0 +1,19 @@
+.nome {
+  color: #f00;
+
+  /*
+  font-size: 24px;
+  font-family: "Trebuchet MS", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  */
+
+  font: italic bold 24px "Trebuchet MS", sans-serif;
+
+  text-decoration: underline;
+  text-align: center;
+}
+
+.segmento {
+  font-family: Palatino, serif;
+}

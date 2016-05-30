@@ -1,0 +1,34 @@
+body {
+  font-size: 32px;
+}
+
+h1 {
+  margin: 0;
+}
+
+article {
+  background-color: #0f0;
+}
+
+footer {
+  background-color: yellow;
+  text-align: center;
+}
+
+.coluna1, .coluna2 {
+  background-color: #ccc;
+}
+
+.coluna1 {
+  float: left;
+  width: 48%;
+}
+
+.coluna2 {
+  float: right;
+  width: 48%;
+}
+
+.clearfix {
+  clear: both;
+}

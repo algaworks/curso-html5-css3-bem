@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px = 10 / 16 * 100 = 62.5% (em relação à fonte do navegador) */
+}
+
+.container {
+  width: 1000px;
+  background-color: yellow;
+}
+
+.caixa {
+  width: 50%;
+  padding: 10%;
+  margin-top: 10%;
+
+  font-size: 200%; /* 20px */
+
+  background-color: #ccc;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 250%; /* 50px */
+}
+
+p {
+  font-size: 150%; /* 30px */
+}

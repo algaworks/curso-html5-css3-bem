@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 32px;
+  margin: 0;
+}
+
+.frase1, .frase2, .referencia {
+  width: 500px;
+
+  text-align: justify;
+  background-color: yellow;
+}
+
+p {
+  margin: 10px;
+}
+
+.referencia {
+  background-color: blue;
+  height: 20px;
+}
+
+.frase1 {
+  /*box-sizing: content-box;*/
+
+  padding: 20px;
+  border: 3px solid red;
+}
+
+.frase2 {
+  /*box-sizing: border-box;*/
+
+  padding: 20px;
+  border: 20px solid red;
+}

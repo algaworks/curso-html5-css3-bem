@@ -1,0 +1,25 @@
+body {
+  font-size: 32px;
+}
+
+a {
+  /*
+  border-width: thick;
+  border-color: red;
+  border-style: dashed;
+  */
+
+  border: thick blue solid;
+  border-bottom: 5px dotted #0f0;
+  border-right: 5px dotted #0f0;
+}
+
+p {
+  width: 300px;
+  height: 300px;
+
+  border: 5px solid black;
+  border-radius: 20px 10px 0px 50px;
+
+  background-color: #ccc;
+}

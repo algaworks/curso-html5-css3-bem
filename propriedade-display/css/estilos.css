@@ -1,0 +1,46 @@
+body {
+  font-size: 32px;
+}
+
+.nome-empresa {
+  background-color: pink;
+}
+
+.segmento-empresa {
+  background-color: red;
+}
+
+.curso-html {
+  background-color: #00dd00;
+}
+
+.curso-css {
+  background-color: #fdff11;
+}
+
+.curso-java {
+  background-color: #00dddd;
+}
+
+.curso-bootstrap {
+  background-color: #ee00da;
+}
+
+
+.nome-empresa, .segmento-empresa {
+  display: block;
+  height: 100px;
+  width: 300px;
+}
+
+.curso-html, .curso-css {
+  display: inline;
+  height: 100px; /* não tem efeito */
+  width: 300px; /* não tem efeito */
+}
+
+.curso-java, .curso-bootstrap {
+  display: inline-block;
+  height: 100px;
+  width: 300px;
+}

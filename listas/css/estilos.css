@@ -1,0 +1,15 @@
+body {
+  font-size: 32px;
+}
+
+ul.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul.menu > li {
+  display: inline-block;
+  border: 3px solid red;
+  padding: 5px;
+}

@@ -1,0 +1,21 @@
+body {
+  font-size: 32px;
+}
+
+/*
+h1 {
+  color: red;
+}
+*/
+
+#logo { /* 100 */
+  color: green;
+}
+
+.amarelo { /* 010 */
+  color: yellow;
+}
+
+h1 { /* 001 */
+  color: blue !important;
+}
