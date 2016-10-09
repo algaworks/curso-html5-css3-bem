@@ -1,5 +1,5 @@
 .texto {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .texto h1 {
@@ -20,9 +20,9 @@
 
 
 .comentarios {
-  font-size: 0.9rem;
+  font-size: 0.5rem;
 }
 
 .comentarios p {
-  font-size: 1.5em;
+  font-size: 2em;
 }
